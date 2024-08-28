@@ -18,7 +18,7 @@ class _TodoListState extends State<TodoListPage> {
   bool isLoading = true;
   List items = [];
 
-  get deletebyId => null;
+
 
   @override
   void initState() {
@@ -55,7 +55,7 @@ class _TodoListState extends State<TodoListPage> {
                 //final id = ["_item"] as String;
                 return TodoCard(
                   index: index,
-                  deleteById: deletebyId,
+                  deleteById: deleteById,
                   navigateEdit: navigateToEditPage,
                   item: item,
                 );

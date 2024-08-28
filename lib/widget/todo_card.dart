@@ -4,7 +4,7 @@ class TodoCard extends StatelessWidget {
   final int index;
   final Map item;
   final Function(Map) navigateEdit;
-  final Function(Map) deleteById;
+  final Function(String) deleteById;
   const TodoCard({
     super.key,
   required this.index,
