@@ -49,7 +49,7 @@ class _TodoListState extends State<TodoListPage> {
             ),
             child: ListView.builder(
               itemCount: items.length,
-              padding: EdgeInsets.all(8),
+              padding: const EdgeInsets.all(8),
               itemBuilder: (context, index) {
                 final item = items[index] as Map;
                 //final id = ["_item"] as String;
